@@ -60,3 +60,12 @@ g(x) = 1 + (0*X) + (1 * X^2) + (1 * X^3) =
 
 | 1 | 0 | 1 | 1 |
 |---|---|---|---|
+
+We need to use the polynomial in the first line of the generator matrix, then right shifting by one for each subsequent row
+row 1 : 1,0,1,1,0,0,0
+
+| 1 | 0 | 1 | 1 | 0 | 0 | 0 |
+|---|---|---|---|---|---|---|
+| 0 | 1 | 0 | 1 | 1 | 0 | 0 |
+| 0 | 0 | 1 | 0 | 1 | 1 | 0 |
+| 0 | 0 | 0 | 1 | 0 | 1 | 1 |
