@@ -10,7 +10,7 @@ Page # 110 - 112
 Problem # 4.5, 4.6, 4.7, 4.18, 4.19
 
 
-P 4.5: The following matrix represents a generator matrix for a (7,4) block code.
+###P 4.5: The following matrix represents a generator matrix for a (7,4) block code.
 
 | 1 | 0 | 0 | 0 | 1 | 1 | 0 |
 |---|---|---|---|---|---|---|
@@ -52,14 +52,8 @@ P^T + 3x3 identity matrix
 | 1 | 0 | 1 | 1 | 1 | 0 | 1 |
 | 0 | 1 | 1 | 0 | 1 | 1 | 1 |
 
-<br\
 
-
-
-
-br\>
-
-P 4.6 Find the linear block code generator matrix **G**, if the code generator polynomial is g(x) = 1 + x^2 + x^3 for a (7,4) code.
+###P 4.6 Find the linear block code generator matrix **G**, if the code generator polynomial is g(x) = 1 + x^2 + x^3 for a (7,4) code.
 
 g(x) = 1 + (0*X) + (1 * X^2) + (1 * X^3) = 
 
@@ -74,15 +68,9 @@ row 1 : 1,0,1,1,0,0,0
 | 0 | 1 | 0 | 1 | 1 | 0 | 0 |
 | 0 | 0 | 1 | 0 | 1 | 1 | 0 |
 | 0 | 0 | 0 | 1 | 0 | 1 | 1 |
-
-<br\
-
+>
 
 
 
-br\>
-
-
-
-p 4.7 Repeat p4.6 if g(x) = 1+x^3 for a (7,4) code
+###p 4.7 Repeat p4.6 if g(x) = 1+x^3 for a (7,4) code
 
