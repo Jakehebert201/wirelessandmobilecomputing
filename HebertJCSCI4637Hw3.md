@@ -11,12 +11,19 @@ Problem # 4.5, 4.6, 4.7, 4.18, 4.19
 
 
 P 4.5: The following matrix represents a generator matrix for a (7,4) block code.
- \[
-G = \begin{bmatrix}
-1 & 0 & 0 & 0 & 1 & 1 & 0 \\
-0 & 1 & 0 & 0 & 0 & 1 & 1 \\
-0 & 0 & 1 & 0 & 1 & 1 & 1 \\
-0 & 0 & 0 & 1 & 1 & 0 & 1
-\end{bmatrix}
-\]
+<table>
+  <tr>
+    <td>1</td> <td>0</td> <td>0</td> <td>0</td> <td>1</td> <td>1</td> <td>0</td>
+  </tr>
+  <tr>
+    <td>0</td> <td>1</td> <td>0</td> <td>0</td> <td>0</td> <td>1</td> <td>1</td>
+  </tr>
+  <tr>
+    <td>0</td> <td>0</td> <td>1</td> <td>0</td> <td>1</td> <td>1</td> <td>1</td>
+  </tr>
+  <tr>
+    <td>0</td> <td>0</td> <td>0</td> <td>1</td> <td>1</td> <td>0</td> <td>1</td>
+  </tr>
+</table>
+
 What is the corresponding check matrix?
