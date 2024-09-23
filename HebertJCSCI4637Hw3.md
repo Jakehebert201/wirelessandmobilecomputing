@@ -93,8 +93,34 @@ The generator matrix is:
 
 | 1 | 1 | 0 | 1 | 0 | 0 | 0 |
 |---|---|---|---|---|---|---|
-| 0 | 1 | 1 | 0 | 1 | 0 | 0 |    * | 1 | 0 | 1 | 0 |
+| 0 | 1 | 1 | 0 | 1 | 0 | 0 |   
 | 0 | 0 | 1 | 1 | 0 | 1 | 0 |
 | 0 | 0 | 0 | 1 | 1 | 0 | 1 |
 
 We need to multiply the message by the generator matrix
+
+G * 1010
+
+The product of the above is 
+| 1 | 1 | 1 | 0 | 0 | 1 | 0 |
+|---|---|---|---|---|---|---|
+
+This is the codeword for 1010 using the given polynomial
+
+### P.4.19 Repeat 4.18 with 1 + x^2 + x^3 as g(x)
+
+1 0 1 1
+
+| 1 | 0 | 1 | 1 | 0 | 0 | 0 |
+|---|---|---|---|---|---|---|
+| 0 | 1 | 0 | 1 | 1 | 0 | 0 |   
+| 0 | 0 | 1 | 0 | 1 | 1 | 0 |
+| 0 | 0 | 0 | 1 | 0 | 1 | 1 |
+
+Multiply by 1010
+
+Product = 
+| 1 | 0 | 0 | 1 | 1 | 1 | 0 |
+|---|---|---|---|---|---|---|
+
+1001110 is the result of the product of 1011. Compared to the previous answer, 1110010, we can see that with a different generator polynomial, we will get a different code word for the same message. This is expected as it goes through a different matrix to be multiplied across.
