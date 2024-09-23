@@ -59,3 +59,4 @@ P 4.6 Find the linear block code generator matrix **G**, if the code generator p
 g(x) = 1 + (0*X) + (1 * X^2) + (1 * X^3) = 
 
 | 1 | 0 | 1 | 1 |
+|---|---|---|---|
