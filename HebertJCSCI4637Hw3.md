@@ -74,3 +74,27 @@ row 1 : 1,0,1,1,0,0,0
 
 ### P 4.7 Repeat p4.6 if g(x) = 1+x^3 for a (7,4) code
 
+g(x) = 1 = x^3 => 1, 0, 0, 1
+
+| 1 | 0 | 0 | 1 | 0 | 0 | 0 |
+|---|---|---|---|---|---|---|
+| 0 | 1 | 0 | 0 | 1 | 0 | 0 |
+| 0 | 0 | 1 | 0 | 0 | 1 | 0 |
+| 0 | 0 | 0 | 1 | 0 | 0 | 1 |
+
+
+### P 4.18 Polynomial 1+x^7 can be factored into 3 irreducible polynomials (1+x)(1+x+x^3)(1+x^2+x^3) with (1+x^2+x^3) and (1+x+x^3) as primitive polynomials. Using 1 + x + x^3 as generator polynomial, calculate the (7,4) cyclic code word for given message sequence 1010
+
+g(x) = 1 + x + x^3
+
+message sequence = 1010, m(x) = 1x^3 + x
+
+The generator matrix is: 
+
+| 1 | 1 | 0 | 1 | 0 | 0 | 0 |
+|---|---|---|---|---|---|---|
+| 0 | 1 | 1 | 0 | 1 | 0 | 0 |    * | 1 | 0 | 1 | 0 |
+| 0 | 0 | 1 | 1 | 0 | 1 | 0 |
+| 0 | 0 | 0 | 1 | 1 | 0 | 1 |
+
+We need to multiply the message by the generator matrix
