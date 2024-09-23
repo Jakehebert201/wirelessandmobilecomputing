@@ -52,7 +52,12 @@ P^T + 3x3 identity matrix
 | 1 | 0 | 1 | 1 | 1 | 0 | 1 |
 | 0 | 1 | 1 | 0 | 1 | 1 | 1 |
 
+<br\
 
+
+
+
+br\>
 
 P 4.6 Find the linear block code generator matrix **G**, if the code generator polynomial is g(x) = 1 + x^2 + x^3 for a (7,4) code.
 
@@ -69,3 +74,15 @@ row 1 : 1,0,1,1,0,0,0
 | 0 | 1 | 0 | 1 | 1 | 0 | 0 |
 | 0 | 0 | 1 | 0 | 1 | 1 | 0 |
 | 0 | 0 | 0 | 1 | 0 | 1 | 1 |
+
+<br\
+
+
+
+
+br\>
+
+
+
+p 4.7 Repeat p4.6 if g(x) = 1+x^3 for a (7,4) code
+
